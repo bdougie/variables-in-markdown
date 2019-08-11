@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    marky_markdown (0.1.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  marky_markdown!
+
+BUNDLED WITH
+   2.0.2
