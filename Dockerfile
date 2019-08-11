@@ -1,7 +1,7 @@
 FROM andrius/alpine-ruby
 
-LABEL "com.github.actions.name"="Ruby Example"
-LABEL "com.github.actions.description"="Example code for building a GitHub Action with the language you love, Ruby."
+LABEL "com.github.actions.name"="Variables in Markdown"
+LABEL "com.github.actions.description"="Allows variable templating in Markdown."
 LABEL "com.github.actions.icon"="filter"
 LABEL "com.github.actions.color"="red"
 
@@ -16,7 +16,9 @@ RUN apk update && \
 
 COPY entrypoint.sh /entrypoint.sh
 COPY action.rb /action.rb
+COPY Gemfile /Gemfile
 
 RUN chmod +x /entrypoint.sh
+Run bundle install
 
 ENTRYPOINT ["/entrypoint.sh"]
