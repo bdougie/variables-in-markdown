@@ -19,8 +19,9 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 ```
+## Testing
 
-This s best used with issue templates. Create an examples `.github/ISSUE_TEMPLATE.md` file. This file should have front matter to help construct the new issue:
+This action is best used with issue templates. Create an examples `.github/ISSUE_TEMPLATE.md` file. This file should have front matter to help construct the new issue:
 
 ```markdown
 ---
