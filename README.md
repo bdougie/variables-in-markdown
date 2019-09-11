@@ -20,7 +20,7 @@ jobs:
 
 ```
 
-This s best used with issue templates. Create an examples `.github/ISSUE_TEMPLATE.md` file. This file should have front matter to help construct the new issue:
+This action is best used with issue templates. Create an example `.github/ISSUE_TEMPLATE.md` file. This file should have front matter to help construct the new issue:
 
 ```markdown
 ---
@@ -35,5 +35,5 @@ $-->
 "Say hi to your {{ NOUN }} for me," {{ ATTRIBUTION }}
 ```
 
-You'll notice that the above example has some `{{ MUSTACHE }}` variables. This is need for the API to find and replace variables. This is powered by the [marky_markdown](https://rubygems.org/gems/marky_markdown) ruby gem.
+You'll notice that the above example has some `{{ MUSTACHE }}` variables. This is needed for the API to find and replace variables. This is powered by the [marky_markdown](https://rubygems.org/gems/marky_markdown) ruby gem.
 
