@@ -19,6 +19,6 @@ COPY action.rb /action.rb
 COPY Gemfile /Gemfile
 
 RUN chmod +x /entrypoint.sh
-Run bundle install
+RUN bundle install
 
 ENTRYPOINT ["/entrypoint.sh"]
