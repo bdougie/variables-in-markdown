@@ -1,0 +1,9 @@
+name: 'Variables in Markdown'
+description: 'Allows variable templating in Markdown.'
+author: 'Brian Douglas'
+branding:
+  icon: 'filter'
+  color: 'red'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
